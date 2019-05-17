@@ -1,4 +1,4 @@
-# AngularComponentsCommunication
+# AngularCommunication1
 
 Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 1.3.0.
 
