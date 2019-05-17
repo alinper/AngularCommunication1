@@ -15,12 +15,14 @@ Crearemos el componente de barra lateral que tendrá el componente de barra late
 Aquí está el código relevante:
 
 ### app.component.html
+```html
 app component
 
 <app-side-bar-toggle [sideBar]="sideBar"></app-side-bar-toggle>
 <app-side-bar #sideBar></app-side-bar>
-
+```
 ### side-bar-toggle.component.ts
+```typescript
 @Component({
   selector: 'app-side-bar-toggle',
   templateUrl: './side-bar-toggle.component.html',
@@ -36,8 +38,9 @@ export class SideBarToggleComponent {
   }
 
 }
-
+```
 ### side-bar.component.ts
+```typescript
 @Component({
   selector: 'app-side-bar-toggle',
   templateUrl: './side-bar-toggle.component.html',
@@ -53,6 +56,7 @@ export class SideBarToggleComponent {
   }
 
 }
+```
 Las importaciones se omiten en el código de TypeScript
 
 Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 1.3.0.
